@@ -1,0 +1,114 @@
+@import '../../vendor/bootstrap/css/bootstrap.css';
+@import '../../vendor/bootstrap/css/bootstrap-theme.css';
+
+body {
+	padding: 0;
+}
+
+.navbar {
+	margin:0;
+}
+
+.block {
+	display: block;
+}
+
+.text-box {
+	padding: 15px;
+}
+
+.keep-b {
+	margin-bottom: 15px;
+}
+
+.navbar-fixed-top {
+	background-color: #ffffff;
+}
+
+.jumbotron {
+	background-color: #000;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-image: url(../img/bg-h260.jpg);
+}
+
+.jumbotron * {
+	color: #eef;
+	text-shadow: 0 0 10px rgba(0, 0, 64, .75);
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus,
+.navbar-brand:hover,
+.navbar-brand:focus  {
+	background-color: transparent;
+}
+
+.navbar .navbar-nav > .active > a, 
+.navbar .navbar-nav > .active > a:hover, 
+.navbar .navbar-nav > .active > a:focus,
+.navbar-brand.active {
+	color: #fff;
+}
+
+
+
+.success {
+	color: #5cb85c !important;
+}
+.error {
+	color: #d9534f !important;
+}
+
+.ui-dialog {
+	z-index: 9999 !important;
+}
+.tooltip, .tooltip * {
+	text-align: left;
+}
+
+
+/* Bordered layout boxes */
+.box {
+	position:relative;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.box-inner {
+	position:relative;
+	min-height: 160px;
+	overflow: visible;
+}
+.box .glyphicon-chevron-right {
+	position:absolute;
+	right:-26px;
+	top: 50%;
+	margin-top: -0.5em;
+	font-size: 24px;
+}
+.box .glyphicon-chevron-down {
+	position:absolute;
+	left:50%;
+	margin-left: -0.5em;
+	top: auto;
+	bottom: -28px;
+	font-size: 24px;
+}
+.box-inner .btn {
+	text-overflow: ellipsis;
+	display:inline-block;
+	max-width:100%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+	.box {
+		margin-bottom: 30px;
+	}
+	.box-inner {
+		position:relative;
+		min-height: 0;
+		overflow: visible;
+	}	
+}

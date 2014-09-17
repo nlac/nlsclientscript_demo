@@ -1,0 +1,1 @@
+simple bootstrap-based yii theme
