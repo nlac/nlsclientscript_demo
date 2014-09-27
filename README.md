@@ -1,4 +1,4 @@
-nlsclientscript_demo
-====================
+nlsclientscript_demo 1.0.1
+==========================
 
-Demo for nlsclientscript - available online on http://nlacsoft.net/nlsclientscript
+Demo for https://github.com/nlac/nlsclientscript - available online on http://nlacsoft.net/nlsclientscript
