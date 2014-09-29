@@ -1,7 +1,7 @@
 <?php
 
-// Alias for "nlac" namespace
-Yii::setPathOfAlias('nlac', __DIR__ . '/../../vendor/nlac/nlsclientscript/src/nlac');
+// Alias for "nlac" namespace - not needed any more cus of autoload
+//Yii::setPathOfAlias('nlac', __DIR__ . '/../../vendor/nlac/nlsclientscript/src/nlac');
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
